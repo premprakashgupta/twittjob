@@ -206,12 +206,12 @@ session_start();
                <h2>Login Form</h2>
                <div class="rocket">
                    <img src="image/Picture1.png" alt="">
-                   <a href="index.php" class="btn">Registration</a>
+                   <a href="https://twittjob.herokuapp.com/index.php" class="btn">Registration</a>
                    <br>
                </div>
            </div>
             <div class="col-right">
-               <form id="form" action="validation.php" method="post">
+               <form id="form" action="https://twittjob.herokuapp.com/validation.php" method="post">
                    <table>
                        <tr>
                            <th>Email</th>
