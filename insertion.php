@@ -41,6 +41,6 @@ $status=mysqli_query($con,$query);
 }
 else
 {
-    header('location:http://localhost/ourweb/index.php');
+    header('location:https://twittjob.herokuapp.com/index.php');
 }
 ?>
