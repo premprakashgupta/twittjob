@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(!isset($_SESSION['username'])){
-    header('location:http://localhost/ourweb/error.php');
+    header('location:https://twittjob.herokuapp.com/error.php');
 }
 
 if(isset($_POST))
@@ -161,12 +161,12 @@ $num=mysqli_num_rows($result);
         <a class="nav-link" href="#"><img src="image/Picture1.png" alt="" width="40px" onclick="showmenu()" ></a>
         <ul id="menu">
            <span onclick="closemenu()">+</span>
-            <li><a href="picupdate.php"><img src="<?php echo $_SESSION['image'];?>" alt="" width="50px"></a></li>
-            <li> <a href="view.php"> <?php echo $_SESSION['username'];?></a> </li>
-            <li><a href="forgate.php">Forget password</a></li>
-            <li><a href="profile.php">Update profile</a></li>
-            <li><a href="jobinsert.php">Job Insert</a></li>
-            <li><a href="logout.php">Log out</a></li>
+            <li><a href="https://twittjob.herokuapp.com/picupdate.php"><img src="<?php echo $_SESSION['image'];?>" alt="" width="50px"></a></li>
+            <li> <a href="https://twittjob.herokuapp.com/view.php"> <?php echo $_SESSION['username'];?></a> </li>
+            <li><a href="https://twittjob.herokuapp.com/forgate.php">Forget password</a></li>
+            <li><a href="https://twittjob.herokuapp.com/profile.php">Update profile</a></li>
+            <li><a href="https://twittjob.herokuapp.com/jobinsert.php">Job Insert</a></li>
+            <li><a href="https://twittjob.herokuapp.com/logout.php">Log out</a></li>
         </ul>
       </li>
     </ul>
