@@ -210,7 +210,7 @@
                </div>
            </div>
             <div class="col-right">
-               <form id="form" action="insertion.php" onsubmit="return validation()" method="post" enctype="multipart/form-data">
+               <form id="form" action="https://twittjob.herokuapp.com/insertion.php" onsubmit="return validation()" method="post" enctype="multipart/form-data">
                    <table>
                        <tr>
                            <th>Username</th>
