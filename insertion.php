@@ -32,11 +32,11 @@ if($num<1){
     move_uploaded_file($filetemp,$destinationfile);
     $query="INSERT INTO information (username,email,password,cpassword,address,gender,token,status,pic) values ('$username','$email','$password','$cpassword','$address','$gender','$token','inactive','$destinationfile')";
 $status=mysqli_query($con,$query);
-    header('location:http://localhost/ourweb/login.php');
+    header('location:https://twittjob.herokuapp.com/login.php');
 }
     else
     {
-         header('location:http://localhost/ourweb/index.php');
+         header('location:https://twittjob.herokuapp.com/index.php');
     }
 }
 else
