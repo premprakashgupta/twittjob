@@ -18,12 +18,12 @@ if($num==1)
     $_SESSION['msg']="";
     
    
-    header('location:http://localhost/ourweb/home.php');
+    header('location:https://twittjob.herokuapp.com/home.php');
 
 }
 else
 {
-     header('location:http://localhost/ourweb/login.php');
+     header('location:https://twittjob.herokuapp.com/login.php');
 } 
 
 ?>
